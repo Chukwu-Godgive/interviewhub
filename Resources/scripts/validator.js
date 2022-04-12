@@ -42,17 +42,17 @@
         localStorage.setItem("storedEmail", email);
         localStorage.setItem("storedPassword", password);
 
-    let fullName = document.getElementById("fullName").value;
-    let fullEmail = document.getElementById("fullEmail").value;
-    let fullCountry = document.getElementById("fullCountry").value;
+    // let fullName = document.getElementById("fullName").value;
+    // let fullEmail = document.getElementById("fullEmail").value;
+    // let fullCountry = document.getElementById("fullCountry").value;
 
-    localStorage.setItem("profileName", fullName);
-    localStorage.setItem("profileEmail", fullEmail);
-    localStorage.setItem("profileCountry", fullCountry);
+    // localStorage.setItem("profileName", fullName);
+    // localStorage.setItem("profileEmail", fullEmail);
+    // localStorage.setItem("profileCountry", fullCountry);
 
-    localStorage.getItem("profileName");
-    localStorage.getItem("profileEmail");
-    localStorage.getItem("profileCountry");
+    // localStorage.getItem("profileName");
+    // localStorage.getItem("profileEmail");
+    // localStorage.getItem("profileCountry");
 
         location.href = "../Dashboard/dashboard.html"
     }
