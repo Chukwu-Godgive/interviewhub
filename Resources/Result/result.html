@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result</title>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="../Result/result.css" />
+
+    <!-- ====  REMIXICON CDN ==== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ==== HEADER ==== -->
+    <header class="container header">
+      <!-- ==== NAVBAR ==== -->
+      <nav class="nav">            
+          <div class="logo">
+            <a href="/index.html">
+            <img src="../img/Logo.png" alt="Logo" />
+            <h3>INTERVIEW <span>Hub</span></h3>
+            </a>
+          </div>
+      </nav>
+    </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+
+            
+
+<!-- First Content             -->
+          <div class="grid-item-1">
+            <div class="btn_wrapper">
+              <a href="../Dashboard/dashboard.html">
+              <button class="btn view_more_btn">
+                Dashboard 
+              </button>
+              </a>
+            </div>
+
+            <div class="btn_wrapper">
+                <a href="../Interview/interview.html">
+                <button class="btn view_more_btn">
+                  Interview Exam
+                </button>
+                </a>
+            </div>
+
+            <div class="btn_wrapper">
+                <a href="../Result/result.html">
+                <button class="btn view_more_btn">
+                  Result
+                </button>
+                </a>
+            </div>
+              
+            <div class="btn_wrapper">
+                <a href="../Logout/logout.html">
+                <button class="btn view_more_btn">
+                   Logout 
+                </button>
+                </a>
+            </div>
+
+          </div>
+
+<!-- Second Content -->
+          <div class="grid-item-1">
+            <div class="grid-item-1-2">
+
+            <div class="btn_wrapper-2">
+              <div class="btn-2 view_more_btn-2">
+                <!-- <a href="#" onclick="return false"> -->
+                    <button id="checkResult" onclick="checkitout()" class="check-result">
+                       <h1><u>Check Result</u></h1>
+                    </button>
+                <!-- </a> -->
+              </div>
+            </div>
+
+            <div class="btn_wrapper-2">
+              <div class="btn-2 view_more_btn-2">
+                <p>Subject: Interview Exam</p> 
+              </div>
+            </div>
+
+            <div class="btn_wrapper-2">
+              <div class="btn-2 view_more_btn-2">
+                <p>Score: <b><span id="score" style="font-size:25px"></span></b></p> 
+              </div>
+            </div>
+              
+            <div class="btn_wrapper-2">
+              <div class="btn-2 view_more_btn-2">
+                <p>Grade: <b><span id="grade" style="font-size:25px"></span></b></p> 
+              </div>
+            </div>
+          </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        <div class="container-2">
+            <p>
+                Enugu State University of Science and Technology, Agbani Enugu
+            </p>
+            <p>
+                Designed By - Chukwu Godgive 2017030182101
+            </p>
+            <p align="center">
+                All Rights Reserved. &copy; Interview Hub 2022
+            </p>
+        </div>
+    </footer>
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="../Interview/interview.js"></script>
+    <script src="../Dashboard/dashboard.js" defer></script>
+  </body>
+</html>

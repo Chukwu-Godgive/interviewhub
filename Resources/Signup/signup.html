@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup</title>
+	<link rel="stylesheet" type="text/css" href="../Signup/signup.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img class="wave" src="../img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="../img/bg.webp">
+		</div>
+		<div class="login-content">
+			<div class="form">
+				<img src="../img/avatar.svg">
+				<h2 class="title">Welcome</h2>
+           		
+<!-- Full Name Section -->
+                <div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Full Name</h5>
+           		   		<input type="text" id="getFullName" id="fullName" class="input" required>
+           		   </div>
+           		</div>
+
+<!-- Email Section -->
+                <div class="input-div one">
+                    <div class="i">
+                            <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                            <h5>Email</h5>
+                            <input type="email" id="getEmail" id="fullEmail" class="input" required >
+                    </div>
+                </div>
+
+<!-- Country Section -->
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Country</h5>
+           		    	<input type="text" id="fullCountry" class="input" required>
+            	   </div>
+            	</div>
+
+<!-- Password Section -->
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" id="getPassword" class="input" required>
+            	   </div>
+            	</div>
+
+<!-- Confirm Password Section -->
+           		<div class="input-div pass">
+                    <div class="i"> 
+                         <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                         <h5>Confirm Password</h5>
+                         <input type="password" class="input" id="getConfirmPassword" required>
+                    </div>
+                </div>
+            	<a href="../Login/login.html">Already have an account?</a>
+            	<input type="submit" id="registerButton" onclick="signUpValidator()" class="btn" value="Sign Up">
+            </div>
+        </div>
+</div>
+
+    <script type="text/javascript" src="../scripts/validator.js"></script>
+	<script type="text/javascript" src="../Signup/signup.js"></script>
+</body>
+</html>
